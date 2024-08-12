@@ -16,3 +16,9 @@ Example:
 
 
 // Solution
+
+function consecutive(array) {
+  if (!array.length) return 0;
+  const range = Math.max(...array) - Math.min(...array);
+  return range - array.length + 1;
+}
