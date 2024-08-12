@@ -22,3 +22,5 @@ function consecutive(array) {
   const range = Math.max(...array) - Math.min(...array);
   return range - array.length + 1;
 }
+
+// or
